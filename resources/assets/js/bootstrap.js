@@ -9,7 +9,6 @@ window._ = require('lodash');
 
 window.$ = window.jQuery = require('jquery');
 
-require('bootstrap-sass');
 
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
@@ -18,6 +17,8 @@ require('bootstrap-sass');
  */
 
 window.Vue = require('vue');
+import Buefy from 'buefy';
+Vue.use(Buefy);
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
